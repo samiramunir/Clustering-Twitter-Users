@@ -23,19 +23,13 @@ Extracted link to NYT article (associated with each tweet) from the JSON logs an
 
 
 
-### A view of the network before any clustering analysis. 
+### EDA
 
 To take an initial look at the project, I made a network graph that shows the link between an NYT post and twitter users. 
 The light blue nodes are the articles. The lines links/edges between each reader and the article. This is an intial view, just to do some exploratory analysis. Later we will define the nodes and edges as defined in the first section of this readme. 
 ![](/media/c.gif)
 
 
-
-
-
-
-## Objective
-Perform Latent Dirichlet Allocation on article texts and Agglomerative Clustering on readers
 
 
 
