@@ -33,7 +33,7 @@ Extracted link to NYT article (associated with each tweet) from the JSON logs an
 
 To take an initial look at the project, I made a network graph that shows the link between an NYT post and twitter users for a random sample of 100 users. As you can see the network is really dense which made it impossible to visualize the entire network in one image. Here, The light blue nodes are the articles. The lines links/edges between each reader and the article. As visible the network is very dense. Later we will define the nodes and edges as defined in the first section of this readme. 
 
-![](/media/c.gif)
+![initialnetwork](/media/c.gif)
 
 
 
