@@ -31,34 +31,28 @@ Extracted link to NYT article (associated with each tweet) from the JSON logs an
 
 ### EDA
 
-To take an initial look at the project, I made a network graph that shows the link between an NYT post and twitter users. 
-The light blue nodes are the articles. The lines links/edges between each reader and the article. Later we will define the nodes and edges as defined in the first section of this readme. 
+To take an initial look at the project, I made a network graph that shows the link between an NYT post and twitter users for a random sample of 100 users. As you can see the network is really dense which made it impossible to visualize the entire network in one image. Here, The light blue nodes are the articles. The lines links/edges between each reader and the article. As visible the network is very dense. Later we will define the nodes and edges as defined in the first section of this readme. 
 
 ![](/media/c.gif)
 
 
 
-
-
-
-### A view of the network after articles were grouped into 5 topics 
-![](/media/netxtopicuser100.png)
-
-
-
-### Aggregated number of retweets of all articles under each topic
+#### Aggregated number of retweets of all articles under each topic
 
 
 ![](/media/agg_retweet_topic.png) 
 
 
-### Number of articles grouped under each topic
+#### Number of articles grouped under each topic
 
 ![](/media/art_in_topic.png)
 
 
 
-### User clusters based on retweet behavior
+#### A view of the network after articles were grouped into 5 topics 
+![](/media/netxtopicuser100.png)
+
+#### User clusters based on retweet behavior
 Converted the users into vectors of size equal to the number of topics. Each value in the vector is either 1 or 0 based on whether the user retweeted an article that belongs to the topic or not. 
 
 Performed agglomerative clustering based on cosine similarity between each user vectors. 
