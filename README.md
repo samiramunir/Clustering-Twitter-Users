@@ -26,7 +26,7 @@ Extracted list of retwitter IDs of a each post, from the json logs. A retweeter 
 Extracted link to NYT article (associated with each tweet) from the JSON logs and scraped the text of those articles from NYT website using bs4 and Newspaper3k libraries. 
 
 
-
+![vector](/media/user_vectors.png)
 
 
 ### EDA
