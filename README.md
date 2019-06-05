@@ -57,7 +57,7 @@ I decided to use a number of topic that is between 6 and 3 and picked 5 for the 
 
 These were the most important words relevant to each topic. 
 
-![words_in_topics](/media/lTopics_print.png )
+![words_in_topics](/media/Topics_print.png )
 
 
 
