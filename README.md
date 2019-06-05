@@ -38,7 +38,20 @@ To take an initial look at the project, I made a network graph that shows the li
 
 The distribution of retweets across users looked like this. 
 
-![user_retweets](/media/user_retweets.gif)
+![nytarticles_retweets](/media/EDA_NYTposts_Retweets.gif)
+
+
+### Topic Modeling 
+
+
+![topic_cosine_similarity](/media/topic_cosine_similarity.png)
+
+
+![topic_jaccard_index](/media/lda_jaccard_similarity.png )
+
+average jaccard similarity between the topics continue to decrease until number of topic reaches 6
+Coherence score is the higest at 3/4
+I decided to use a number of topic that is between 6 and 3 and picked 5 for the purpose of the project
 
 
 #### Aggregated number of retweets of all articles under each topic
