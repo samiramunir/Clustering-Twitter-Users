@@ -55,6 +55,11 @@ average jaccard similarity between the topics continue to decrease until number 
 Coherence score is the higest at 3/4
 I decided to use a number of topic that is between 6 and 3 and picked 5 for the purpose of the project
 
+These were the most important words relevant to each topic. 
+
+![words_in_topics](/media/lTopics_print.png )
+
+
 
 #### Aggregated number of retweets of all articles under each topic
 
