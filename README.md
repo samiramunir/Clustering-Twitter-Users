@@ -27,6 +27,7 @@ Extracted link to NYT article (associated with each tweet) from the JSON logs an
 
 
 ![vector](/media/user_vectors.png)
+![vector_article](/media/user_vec_topic.png)
 
 
 ### EDA
