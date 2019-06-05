@@ -19,6 +19,8 @@ NODE: Each retweeter is a node.
 EDGE: If two nodes have reweeted the same NYT post, then that is calculated as one link/edge between those two nodes. 
 
 
+
+
 #### Data Collection: 
 I collected metadata of twitter posts by NYT for 30 days using twitter API in the form of JSON logs.
 Extracted list of retwitter IDs of a each post, from the json logs. A retweeter is defined as a twitter user who has retweeted a particular NYT post. 
@@ -26,7 +28,17 @@ Extracted list of retwitter IDs of a each post, from the json logs. A retweeter 
 Extracted link to NYT article (associated with each tweet) from the JSON logs and scraped the text of those articles from NYT website using bs4 and Newspaper3k libraries. 
 
 
+This is what the project workflow looked like: 
+
+![workflow](/media/workflow.png)
+
+
+
+
+
 ![vector](/media/user_vectors.png)
+
+
 ![vector_article](/media/user_vec_topic.png)
 
 
