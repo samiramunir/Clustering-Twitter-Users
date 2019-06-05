@@ -9,7 +9,7 @@ Perform unsupervised clustering of Twitter users through Social Network Analysis
 
 ### Motivation 
 
-Thanks to the advent of twitter and facebook the practical applications of network analysis , especially for businesses, has become more and more relevant. One of the many problems it solves is the problem of Data-sparsity and cold start-problems for recomemndation systems. Recommendations systems either rely on a user's history on past usage of products to map a user's taste and predict similar item based of off that or they rely on other users with similar interests. This is where the challenges of Data-Sparsity and Cold start-problems comes in. Which basically mean, not enough user data is available to begin with to make valid recommendations. It is especially pronounced in terms of News Recommendation thanks to the diversity and the sheer amount of new content production and plethora of content sources available. Analysis of social networks presents a valuable yet challenging opportunity to gain insight in that regards. This project aims to perform such network analysis and cluster/segment twitter users based on what kind of news they share on social media. 
+Thanks to the advent of twitter and facebook the practical applications of unsupervised clustering, especially for businesses, has become more and more relevant. One of the many problems it solves is the problem of Data-sparsity and cold start-problems for recomemndation systems. Recommendations systems either rely on a user's history on past usage of products to map a user's taste and predict similar item based of off that or they rely on other users with similar interests. This is where the challenges of Data-Sparsity and Cold start-problems comes in. Which basically mean, not enough user data is available to begin with to make valid recommendations. It is especially pronounced in terms of News Recommendation thanks to the diversity and the sheer amount of new content production and plethora of content sources available. Analysis of social networks presents a valuable yet challenging opportunity to gain insight in that regards. This project aims to perform such network analysis and cluster/segment twitter users based on what kind of news they share on social media. 
 
 "Social network analysis (SNA) is the process of investigating social structures through the use of networks and graph theory.[1] It characterizes networked structures in terms of nodes (individual actors, people, or things within the network) and the ties, edges, or links (relationships or interactions) that connect them." - Wikipedia 
 
@@ -35,6 +35,10 @@ To take an initial look at the project, I made a network graph that shows the li
 
 ![initialnetwork](/media/c.gif)
 
+
+The distribution of retweets across users looked like this. 
+
+![user_retweets](/media/user_retweets.gif)
 
 
 #### Aggregated number of retweets of all articles under each topic
